@@ -1,3 +1,13 @@
+# Como executar
+
+```
+$ gcc index.c -o index
+$ ./index <QTD_NUMEROS>
+```
+
+
+
+
 # Pipes
 
 Implemente o programa Produtor-Consumidor como vimos em aula com dois

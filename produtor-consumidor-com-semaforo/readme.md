@@ -1,3 +1,12 @@
+# Como Usar
+``` bash
+$ ./index <N> <Np> <Nc>
+N = tamanho do buffer
+Np = numero de produtores
+Nc = numero de consumidores
+```
+# Produtor Consumidor
+
 Implemente um programa Produtor-Consumidor multithreaded com memória compartilhada. Assuma que a memória compartilhada é um vetor de
 números inteiros de tamanho N. O número de threads do tipo produtor
 e consumidor são parâmetros do programa dados por Np e Nc, respectivamente. A thread produtor deve gerar números inteiros aleatórios entre 1 e

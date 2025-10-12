@@ -32,7 +32,7 @@ gcc index.c -o index
 **4. Executar o Código de Pipes**
 
 ```bash
-./index <VALOR_INTEIRO_INDICA_QTD_NUM_GERADOS_E_AVALIADOS>
+./index VALOR_INTEIRO_INDICA_QTD_NUM_GERADOS_E_AVALIADOS
 ```
 
 ## Scripts

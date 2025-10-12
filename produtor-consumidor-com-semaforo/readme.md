@@ -1,10 +1,23 @@
 # Como Usar
+O código principal está em index.c 
+para transformá-lo em executável:
+```bash
+$ gcc index.c -o index
+```
+como utilizá-lo:
 ``` bash
 $ ./index <N> <Np> <Nc>
 N = tamanho do buffer
 Np = numero de produtores
 Nc = numero de consumidores
 ```
+Outros executáveis e arquivos:
+
+executor.sh --> serve para variar os parâmtros de tamanho do buffer, número de produtores e número de consumidorers. Deve ser executada na mesma pasta onde está o executável de index.c
+
+analise de gráficos --> faz o plot de gráficos para a análise de dados da tabela gerada por meio dos resultados de executor.sh, nomeada de dados_produtor_consumidor_tempo_de_execucao.csv
+
+vários gráficos foram gerados de acordo com o tamanho do buffer
 # Produtor Consumidor
 
 Implemente um programa Produtor-Consumidor multithreaded com memória compartilhada. Assuma que a memória compartilhada é um vetor de
